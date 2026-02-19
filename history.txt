@@ -1,0 +1,16 @@
+ 1071  cd ../../..\n
+ 1072  git add .\ngit commit -m "Create raw data structure"\n
+ 1073  cd linux_task/data/raw\n
+ 1074  cat <<EOF > sequencing_summary.txt\nrun_id: RUN001\ndate: 2026-02-18\nsample: sample1\nplatform: Illumina\nread_length: 150\ntotal_reads: 1024\nsample: sample2\ntotal_reads: 2048\nsample: sample3\ntotal_reads: 4096\nEOF\n
+ 1075  grep "sample" sequencing_summary.txt > samples_list.txt\n
+ 1076  count=$$(wc -l < samples_list.txt)\necho "Total samples found: $$count" >> samples_list.txt\n
+ 1077  tail -n 5 samples_list.txt\n
+ 1078  cd ../../..\ngit add .\ngit commit -m "Add sample list and count"\n
+ 1079  git checkout -b git-practice\n
+ 1080  echo "This is very important data." > important_note.txt\n
+ 1081  git add important_note.txt\ngit commit -m "Add important note"\n
+ 1082  rm important_note.txt\n
+ 1083  git status\n
+ 1084  git restore important_note.txt\n
+ 1085  echo "git restore important_note.txt" > git_command.txt\n
+ 1086  git add .\ngit commit -m "Restore deleted file"\n
