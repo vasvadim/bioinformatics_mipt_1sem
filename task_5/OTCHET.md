@@ -79,7 +79,7 @@ drwxr-xr-x. 8 studfbmf02_03 fbmf        6 Apr 27 00:12 ..
 - **Sequence Duplication Levels:** **FAIL** → **WARN** (доля дубликатов в пересчёте изменилась).  
 - **Adapter Content** — по-прежнему **PASS**.
 
-Модули **GC** и **k-mer/sequence content** сильно **зависят от биологии** (РНК, доминантные ампликоны) — **тримминг** их **не** обязан приводить к **PASS**; в отчёте важно это **явно** указать, как в P.S. к заданию.
+Модули **GC** и **k-mer/sequence content** сильно **зависят от биологии** (РНК, доминантные ампликоны) — **тримминг** их **не** обязан приводить к **PASS**;
 
 **Файлы MultiQC в репозитории:** `results/multiqc_before/multiqc_report.html`, `results/multiqc_after/multiqc_report.html`, дополнительно сводка **«до+после»** в `results/multiqc_both/`.
 
