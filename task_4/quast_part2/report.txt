@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 200 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    Velvet_k31  SPAdes_default
+# contigs (>= 0 bp)         541         49            
+# contigs (>= 1000 bp)      0           1             
+# contigs (>= 5000 bp)      0           0             
+# contigs (>= 10000 bp)     0           0             
+# contigs (>= 25000 bp)     0           0             
+# contigs (>= 50000 bp)     0           0             
+Total length (>= 0 bp)      51988       15064         
+Total length (>= 1000 bp)   0           1069          
+Total length (>= 5000 bp)   0           0             
+Total length (>= 10000 bp)  0           0             
+Total length (>= 25000 bp)  0           0             
+Total length (>= 50000 bp)  0           0             
+# contigs                   14          27            
+Largest contig              414         1069          
+Total length                3492        12128         
+GC (%)                      46.51       45.05         
+N50                         243         517           
+N90                         207         244           
+auN                         260.0       567.4         
+L50                         7           9             
+L90                         13          22            
+# N's per 100 kbp           0.00        0.00          

@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 200 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    Velvet_k31  Velvet_k31_tuned  SPAdes_default  SPAdes_careful
+# contigs (>= 0 bp)         541         77                49              49            
+# contigs (>= 1000 bp)      0           0                 1               1             
+# contigs (>= 5000 bp)      0           0                 0               0             
+# contigs (>= 10000 bp)     0           0                 0               0             
+# contigs (>= 25000 bp)     0           0                 0               0             
+# contigs (>= 50000 bp)     0           0                 0               0             
+Total length (>= 0 bp)      51988       9949              15064           15064         
+Total length (>= 1000 bp)   0           0                 1069            1069          
+Total length (>= 5000 bp)   0           0                 0               0             
+Total length (>= 10000 bp)  0           0                 0               0             
+Total length (>= 25000 bp)  0           0                 0               0             
+Total length (>= 50000 bp)  0           0                 0               0             
+# contigs                   14          13                27              27            
+Largest contig              414         532               1069            1069          
+Total length                3492        4183              12128           12128         
+GC (%)                      46.51       44.06             45.05           45.04         
+N50                         243         332               517             517           
+N90                         207         217               244             244           
+auN                         260.0       356.5             567.4           567.4         
+L50                         7           5                 9               9             
+L90                         13          12                22              22            
+# N's per 100 kbp           0.00        0.00              0.00            0.00          

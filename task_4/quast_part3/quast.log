@@ -1,0 +1,86 @@
+/home/STUDY/FBMF/bioinformatics/soft/bin/quast.py -t 4 -m 200 -o /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3 -l Velvet_k31,Velvet_k31_tuned,SPAdes_default,SPAdes_careful /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/velvet/k31/contigs.fa /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/velvet/k31_tuned/contigs.fa /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/spades/default/contigs.fasta /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/spades/careful/contigs.fasta
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.14.0-611.24.1.el9_7.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.13.9
+  CPUs number: 4
+
+Started: 2026-04-26 19:20:38
+
+Logging to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/quast.log
+
+CWD: /home/STUDY/FBMF/studfbmf02_03
+Main parameters: 
+  MODE: default, threads: 4, min contig length: 200, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/velvet/k31/contigs.fa ==> Velvet_k31
+  2  /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/velvet/k31_tuned/contigs.fa ==> Velvet_k31_tuned
+  3  /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/spades/default/contigs.fasta ==> SPAdes_default
+  4  /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/spades/careful/contigs.fasta ==> SPAdes_careful
+
+2026-04-26 19:20:40
+Running Basic statistics processor...
+  Contig files: 
+    1  Velvet_k31
+    2  Velvet_k31_tuned
+    3  SPAdes_default
+    4  SPAdes_careful
+  Calculating N50 and L50...
+    1  Velvet_k31, N50 = 243, L50 = 7, auN = 260.0, Total length = 3492, GC % = 46.51, # N's per 100 kbp =  0.00
+    2  Velvet_k31_tuned, N50 = 332, L50 = 5, auN = 356.5, Total length = 4183, GC % = 44.06, # N's per 100 kbp =  0.00
+    3  SPAdes_default, N50 = 517, L50 = 9, auN = 567.4, Total length = 12128, GC % = 45.05, # N's per 100 kbp =  0.00
+    4  SPAdes_careful, N50 = 517, L50 = 9, auN = 567.4, Total length = 12128, GC % = 45.04, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/GC_content_plot.pdf
+  Drawing Velvet_k31 GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/Velvet_k31_GC_content_plot.pdf
+  Drawing Velvet_k31_tuned GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/Velvet_k31_tuned_GC_content_plot.pdf
+  Drawing SPAdes_default GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/SPAdes_default_GC_content_plot.pdf
+  Drawing SPAdes_careful GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/SPAdes_careful_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 43x)...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/coverage_histogram.pdf
+  Drawing Velvet_k31 coverage histogram (bin size: 16x)...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/Velvet_k31_coverage_histogram.pdf
+  Drawing Velvet_k31_tuned coverage histogram (bin size: 176x)...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/Velvet_k31_tuned_coverage_histogram.pdf
+  Drawing SPAdes_default coverage histogram (bin size: 47x)...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/SPAdes_default_coverage_histogram.pdf
+  Drawing SPAdes_careful coverage histogram (bin size: 47x)...
+    saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/basic_stats/SPAdes_careful_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-04-26 19:20:42
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-04-26 19:20:43
+RESULTS:
+  Text versions of total report are saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/report.html
+  PDF version (tables and plots) is saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/report.pdf
+  Icarus (contig browser) is saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/icarus.html
+  Log is saved to /home/STUDY/FBMF/studfbmf02_03/hw4_assembly/quast_part3/quast.log
+
+Finished: 2026-04-26 19:20:43
+Elapsed time: 0:00:05.093997
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
