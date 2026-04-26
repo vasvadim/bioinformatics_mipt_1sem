@@ -1,0 +1,10 @@
+# Сырые и тяжёлые риды — не в git
+*.fastq
+*.fastq.gz
+~/.local/
+# локальный conda-энв с fastp (путь задан в slurm/env.sh)
+.conda_envs/
+ERR*.sra
+# при желании — не пушить html/json отдельного fastp (остаётся в trimmed/)
+#*.fastp.html
+#*.fastp.json
