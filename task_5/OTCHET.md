@@ -48,7 +48,7 @@ drwxr-xr-x. 8 studfbmf02_03 fbmf        6 Apr 27 00:12 ..
 -rw-r--r--. 1 studfbmf02_03 fbmf 15715693 Apr 27 00:11 ERR14230607_Illumina_HiSeq_4000_sequencing_trimmed.fastq.gz
 ```
 
-*(после обновления сценария `03` в той же папке появятся* `*.fastp.html` *и* `*.fastp.json` *на каждый run.)*
+*В* `task_5/results/trimmed/` *лежат отчёты* `ERR*_..._sequencing.fastp.html` *и* `.json` *для каждого run (параметры* `-h`/`-j` *в* `03_fastp_trim.slurm`*).*
 
 ---
 
